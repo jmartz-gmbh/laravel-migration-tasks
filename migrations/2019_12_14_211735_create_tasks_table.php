@@ -6,7 +6,6 @@ use Illuminate\Support\Facades\Schema;
 
 /**
  * Class CreateTasksTable
- * @todo move migration into own module
  */
 class CreateTasksTable extends Migration
 {
