@@ -1,5 +1,5 @@
 {
-  "name": "jonathan-martz/laravel-migration-tasks",
+  "name": "jmartz-gmbh/laravel-migration-tasks",
   "description": "Php Lumen Migration Controller",
   "license": "MIT",
   "require": {
