@@ -27,7 +27,7 @@ class CreateTasksTable extends Migration
             $table->boolean('highlight')->default(false);
             $table->date('created_at');
             $table->date('updated_at');
-            $table->integer('WSID');
+            $table->integer('WSID')->default(1);
             $table->integer('PID');
             $table->integer('UID');
             $table->integer('TTID');
