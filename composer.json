@@ -1,0 +1,30 @@
+{
+  "name": "jonathan-martz/laravel-migration-tasks",
+  "description": "Php Lumen Migration Controller",
+  "license": "MIT",
+  "require": {
+    "php": "^7.3|^7.4",
+    "illuminate/support": "^7.0",
+    "illuminate/database": "^7.0"
+  },
+  "autoload": {
+    "classmap": [
+      "provider/"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Jonathan Martz",
+      "email": "composer@jmartz.de",
+      "homepage": "https://www.jmartz.de",
+      "role": "Developer"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "App\\Providers\\TasksMigrationProvider"
+      ]
+    }
+  }
+}
